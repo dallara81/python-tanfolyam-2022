@@ -16,3 +16,8 @@ def print_tomato_soup_recipe():
 
 # meghívom a függvényt:
 print_tomato_soup_recipe()
+
+print('\nLássuk még egyszer:\n')
+
+# meghívom a függvényt még egyszer:
+print_tomato_soup_recipe()
