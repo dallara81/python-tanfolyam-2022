@@ -1,14 +1,3 @@
-'''
-Utasítássorrend példa
-(2.7. Milyen sorrendben hajtódik végre a Python-kód)
-
-A control flow (magyarul vezérlésáram) az a sorrend, amelyben a Python interpreter beolvassa az utasításaidat.
-A legegyszerűbb esetben a control flow felülről lefelé halad, és sorról sorra hajtja végig a Python statementeket.
-
-Ez egészen addig igaz, amíg az interpreter nem fut bele valamibe, ami megváltoztatja a control flow-t, például egy függvénybe.
-'''
-
-
 some_variable = 123
 some_expression = 2 + 2
 
@@ -21,8 +10,17 @@ some_function()
 print('Ez egy string.')
 some_function()
 
-
 '''
+Utasítássorrend példa
+(2.7. Milyen sorrendben hajtódik végre a Python-kód)
+
+A control flow (magyarul vezérlésáram) az a sorrend, amelyben a Python interpreter beolvassa az utasításaidat.
+A legegyszerűbb esetben a control flow felülről lefelé halad, és sorról sorra hajtja végig a Python statementeket.
+
+Ez egészen addig igaz, amíg az interpreter nem fut bele valamibe, ami megváltoztatja a control flow-t, például egy függvénybe.
+
+
+A FENTI PÉLDA
 Amikor lefuttatod a fenti programot, a control flow (az utasítások végrehajtásának sorrendje) a következőképp alakul:
 
     Az interpreter elindul legfelülről, és létrehozza a some_variable változót az 1. sorban.
